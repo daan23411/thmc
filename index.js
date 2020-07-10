@@ -10,7 +10,7 @@ bot.commands = new Collection();
 bot.aliases = new Collection();
 bot.categories = fs.readdirSync("./commands/");
 bot.prefix = config.prefix;
-mongoose.connect("mongodb+srv://GoldBotDB:GoldBotOfficialDB@cluster0.jkuzh.mongodb.net/Data?retryWrites=true&w=majority",{
+mongoose.connect("",{
     useUnifiedTopology: true,
     useNewUrlParser: true,
 });
